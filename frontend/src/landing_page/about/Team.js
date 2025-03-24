@@ -4,7 +4,7 @@ function Team() {
   return (
     <div className="container">
       <div className="row p-3  mt-5 border-top">
-        <h1 className=" text-center">People</h1>
+        <h1 className=" text-center mt-5">People</h1>
       </div>
 
       <div
@@ -13,38 +13,49 @@ function Team() {
       >
         <div className="col-6 p-3 text-center">
           <img
-            src="media/images/nithinKamath.jpg"
+            src="media/images/Harsh.jpeg"
             style={{ borderRadius: "100%", width: "50%" }}
           />
-          <h4 className="mt-5">Nithin Kamath</h4>
-          <h6>Founder, CEO</h6>
+          <h4 className="mt-5">Harsh Guleria</h4>
+          <h6>Founder, Full-Stack Developer</h6>
         </div>
         <div className="col-6 p-3">
           <p>
-            Nithin bootstrapped and founded Zerodha in 2010 to overcome the
-            hurdles he faced during his decade long stint as a trader. Today,
-            Zerodha has changed the landscape of the Indian broking industry.
+            Harsh Guleria is a MERN Stack Developer (NodeJS, ExpressJS, ReactJS,
+            MongoDB) and an Aspiring Software Engineer. He is passionate about
+            building scalable and efficient applications to solve real-world
+            problems.
           </p>
 
           <p>
-            He is a member of the SEBI Secondary Market Advisory Committee
-            (SMAC) and the Market Data Advisory Committee (MDAC).
+            He has built a full-stack stock trading platform, leveraging his
+            expertise in backend and frontend technologies to create a seamless
+            trading experience.
           </p>
 
-          <p>Playing basketball is his zen.</p>
+          <p>
+            Coding and problem-solving fuel his curiosity, and he constantly
+            strives to enhance his skills.
+          </p>
 
           <p>
             Connect on{" "}
-            <a href="" style={{ textDecoration: "none" }}>
-              Homepage
+            <a
+              href="https://www.linkedin.com/in/guleria-harsh"
+              style={{ textDecoration: "none" }}
+            >
+              LinkedIn
             </a>{" "}
             /{" "}
             <a href="" style={{ textDecoration: "none" }}>
               TradingQnA
             </a>{" "}
             /{" "}
-            <a href="" style={{ textDecoration: "none" }}>
-              Twitter
+            <a
+              href="https://github.com/Harsz06"
+              style={{ textDecoration: "none" }}
+            >
+              GitHub
             </a>
           </p>
         </div>

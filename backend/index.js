@@ -5,11 +5,10 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
-const { HoldingsModel } = require("./models/HoldingsModel");
+const { HoldingsModel } = require("./model/HoldingsModel");
 
-const { PositionsModel } = require("./models/PositionsModel");
-
-const { OrdersModel } = require("./models/OrdersModel");
+const { PositionsModel } = require("./model/PositionsModel");
+const { OrdersModel } = require("./model/OrdersModel");
 
 const PORT = process.env.PORT || 3002;
 const uri = process.env.MONGO_URL;
@@ -138,9 +137,10 @@ app.use(bodyParser.json());
 //       qty: item.qty,
 //       avg: item.avg,
 //       price: item.price,
-//       net: item.net,
+//       net: item.day,
 //       day: item.day,
 //     });
+
 //     newHolding.save();
 //   });
 //   res.send("Done!");
@@ -181,6 +181,7 @@ app.use(bodyParser.json());
 //       day: item.day,
 //       isLoss: item.isLoss,
 //     });
+
 //     newPosition.save();
 //   });
 //   res.send("Done!");
@@ -212,5 +213,5 @@ app.post("/newOrder", async (req, res) => {
 app.listen(PORT, () => {
   console.log("App started!");
   mongoose.connect(uri);
-  console.log("DB connected!");
+  console.log("DB started!");
 });
