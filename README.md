@@ -1,7 +1,7 @@
 # Full-Stack Stock Trading Platform
 
 ## Overview
-The Full-Stack Stock Trading Platform is a robust and scalable web application that enables users to trade stocks seamlessly. Built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, this platform provides real-time market data, portfolio management, and secure transactions.
+The Full-Stack Stock Trading Platform is a robust and scalable web application that enables users to trade stocks seamlessly. Built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, this platform allows users to buy and sell stocks and manage their portfolios. Currently, the market data does not update in real-time, but we plan to integrate real-time market data in the future. Transactions are currently simplified, allowing users to place orders and buy stocks without security measures, but we aim to implement secure transactions in upcoming updates.
 
 ## Features
 - **Stock Trading**: Buy and sell stocks in real-time.
